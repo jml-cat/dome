@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.demo.mapper.RoomsMapper">
+  
+  <!--<resultMap id="rooms1" type="com.demo.domain.Room">-->
+      <!--<id property="roomid" column="roomid"/>-->
+      <!--<result property="price" column="price"/>-->
+      <!--<association property="checkins" javaType="com.demo.domain.Checkins">-->
+          <!--<id property="cid" column="cid"/>-->
+          <!--<result property="name" column="name"/>-->
+          <!--<result property="checkinTime" column="checkinTime"/>-->
+          <!--<result property="num" column="num"/>-->
+          <!--<result property="state" column="state"/>-->
+      <!--</association>-->
+  <!--</resultMap>-->
+
+    <!--<select id="findAll" resultMap="room1">-->
+        <!--SELECT r.roomid,price,roomstate,NAME,checkinTime,state-->
+           <!--FROM rooms r LEFT JOIN checkins c ON r.roomid=c.roomid-->
+    <!--</select>-->
+  
+</mapper>  
